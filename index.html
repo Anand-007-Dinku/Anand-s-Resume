@@ -1,133 +1,184 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta name="verify-admitad" content="c207d6082c" />
-  <title>Anand's Resume</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anand's Resume</title>
+    <link rel="icon" type="image/x-icon" href="./assets/logoA.jpg">
+
+
+    <style>
+        body {
+            padding-top: 100px;
+            padding-bottom: 60px;
+        }
+        
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            /* Center the DIV horizontally */
+        }
+        
+        .fixed-header,
+        .fixed-footer {
+            width: 100%;
+            position: fixed;
+            background: thistle;
+            padding: 5px 0;
+            color: #fff;
+        }
+        
+        .fixed-header {
+            top: 0;
+        }
+        
+        .fixed-footer {
+            bottom: 0;
+        }
+        /* Some more styles to beutify this example */
+        
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 7px 25px;
+            display: inline-block;
+        }
+        
+        .container p {
+            line-height: 200px;
+            /* Create scrollbar to test positioning */
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
 </head>
 
 <body>
-  <img src="https://raw.githubusercontent.com/Anand-007-Dinku/Anand-s-Resume/main/imageonline-co-compressed%20(1).png" alt="Anand's Profile Picture" width="150" height="150">
-  <h1> Anand Namastemath </h1>
-  <p> <strong> Software Developer </strong> <em> Snapbizz Cloudtech ltd </em></p>
-  <address>
-    <p>Contact : 7026310101 <br /> Email : <a href="mailto:anamastemath@gmail"> anamastemath@gmail.com </a></p>
-  </address>
-  <p> IT profiles :
-    <a href="https://www.linkedin.com/in/anand-namastemath-84a956140" target="_blank">
-      <img src="https://cdn2.iconfinder.com/data/icons/social-media-with-original-colors/256/icon-linkedin.png" alt="LinkedIn" width="30" height="30">
-    </a>
-    <a href="https://github.com/asn-07" target="_blank">
-      <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub" width="30" height="30">
-    </a>
-    <a href="https://www.sololearn.com/profile/974121" target="_blank">
-      <img src="https://b24.am/en/pub/uploads/2018/09/maxresdefault_618022804.jpg" alt="SOLOLEARN" width="50" height="30">
-    </a>
-  </p>
+    <div class="fixed-header">
+        <div class="container">
+            <nav>
+                <a href="#" class="navbar-brand">
+                    <img height="40" alt="Anand DP" src="./assets/logomenu.png" />
+                </a>
+
+                <a href="#" class="navbar-brand">
+                    <h1>Anand Namastemath</h1>
+                </a>
+
+                <a href="https://www.sololearn.com/profile/974121" target="_blank" style="float: right;" class="navbar-brand">
+                    <img src="https://b24.am/en/pub/uploads/2018/09/maxresdefault_618022804.jpg" alt="SOLOLEARN" height="40">
+                </a>
+
+                <a href="https://github.com/asn-07" target="_blank" style="float: right;" class="navbar-brand">
+                    <img height="40" alt="GitHub Logo" src="./assets/github.png" />
+                </a>
+
+                <a href="https://www.linkedin.com/in/anand-namastemath-84a956140/" target="_blank" style="float: right;" class="navbar-brand">
+                    <img height="40" alt="LinkedIn Logo" src="./assets/linkedin.png" />
+                </a>
+
+            </nav>
+        </div>
+    </div>
 
 
-  <hr size="3" noshade />
+    <div class="container">
+        <img src="https://media-exp1.licdn.com/dms/image/C5603AQGaPyE6WImmUQ/profile-displayphoto-shrink_200_200/0/1609941849159?e=1623283200&v=beta&t=y-BiE3zpwcus7q0hILQXEhAr7sAXhkNC_0lIrgML1xQ" alt="Anand's Profile Picture" width="150" height="150">
+        <h2> Anand Namastemath </h2>
+        <strong> Software Developer </strong> <em> Snapbizz Cloudtech ltd </em>
+        <address>
+        Contact : 7026310101 <br /> Email : <a href="mailto:anamastemath@gmail"> anamastemath@gmail.com </a>
+      </address>
 
-  <h4>CAREER OBJECTIVE</h4>
-  <p>Looking forward to work in an organization where I can implement my theoretical,
-    logical, technical skills in the practical real-life environment with committed and
-    dedicated people and would like to continue as a professional in the same field with the
-    best possible outcomes for the growth of the organization, hence becoming a useful
-    asset to the organization and nation.</p>
-  <hr size="3" noshade />
+        <hr size="3" noshade />
 
-  <h4>PROFESSIONAL SUMMARY</h4>
-  <ul>
-    <li>Very good implementation knowledge of <strong><em>OOP’s concepts, Multi-threading, Collections in Java</em></strong>.</li>
-    <li>Hands on experience on writing code using <strong><em>Java 1.8</em></strong>. Have good knowledge of
-      <strong><em>Lambda Expressions, Default and static methods, Method and Constructor
-          Reference, Streams</em></strong>.
-    </li>
-    <li>Involved in the Development of the applications using <strong><em>JAVA, REST APIs using
-          Spring-Boot-framework, MYSQL, POSTGRESQL</em></strong>.</li>
-    <li>Experience in handling servers – Upcloud.</li>
-    <li>Good knowledge of <strong><em>Git Version Control, Bitbucket.</em></strong></li>
-    <li>Implemented <strong><em>Docker and PM2</em></strong> for various project deployment in servers.</li>
-    <li>Worked on different IDE’s like <strong><em>IntelliJ IDEA, Eclipse.</em></strong></li>
-  </ul>
-  <hr size="3" noshade />
-  <h4>PROFESSIONAL EXPERIENCE</h4>
-  <ol>
-    <li>Currently working as a <strong><em>Backend Software Developer</em></strong> in <strong><em><a href="https://snapbizz.com/" target="_blank"> Snapbizz Cloudtech Ltd</a> </em></strong> Bengaluru</li>
-    <li>1.3 years of experience as a <strong><em>Trainee Software Engineer</em></strong> in a company named
-      <strong><em><a href="https://www.obsessory.com/" target="_blank">Obsessory Online Services Private Ltd</a> BANGALORE</em></strong>.
-    </li>
-    <li>Successfully completed 06 months of internship as <strong><em>Intern for Java
-          Development Team in RABSONS INFO WORLD DHARWAD</em></strong>.</li>
-  </ol>
-  <hr size="3" noshade />
-  <h4>PROJECT PROFILE</h4>
-  <ol>
-    <li><strong>AML-Backend and Data-Extraction</strong></li>
-    <ul>
-      <li><strong>Technologies Included</strong> : Spring-Boot, POSTGRESQL</li>
-      <li><strong>Summary</strong> : It is an application where AML data is extracted from various
-        authorized websites and mapped into the database. Later indexed into
-        elastic search to show into front- end.</li>
-      <li><strong>Roles and Responsibilities</strong> : Involved in planning and creating database
-        and architecture of the project, Developed API’s to Map the Data into DB.</li>
-    </ul>
+        <h4>CAREER OBJECTIVE</h4>
+        Looking forward to work in an organization where I can implement my theoretical, logical, technical skills in the practical real-life environment with committed and dedicated people and would like to continue as a professional in the same field with the
+        best possible outcomes for the growth of the organization, hence becoming a useful asset to the organization and nation.
+        <hr size="3" noshade />
 
-    <li><strong><a href="https://www.kychub.com/" target="_blank">KycHub</a></strong></li>
-    <ul>
-      <li><strong>Technologies Included</strong> : Spring-Boot, MYSQL, DOCKER, Nginx</li>
-      <li><strong>Summary</strong> : An interface that provides KYC services like ID check,
-        Address Check, AML check, Adverse Media Check, Corporate Check.</li>
-      <li><strong>Roles and Responsibilities</strong> : Developed REST APIs, Resolved issues,
-        Involved in cleaning code.</li>
-    </ul>
+        <h4>PROFESSIONAL SUMMARY</h4>
+        <ul>
+            <li>Very good implementation knowledge of <strong><em>OOP’s concepts, Multi-threading, Collections in Java</em></strong>.</li>
+            <li>Hands on experience on writing code using <strong><em>Java 1.8</em></strong>. Have good knowledge of
+                <strong><em>Lambda Expressions, Default and static methods, Method and Constructor
+              Reference, Streams</em></strong>.
+            </li>
+            <li>Involved in the Development of the applications using <strong><em>JAVA, REST APIs using
+              Spring-Boot-framework, MYSQL, POSTGRESQL</em></strong>.</li>
+            <li>Experience in handling servers – Upcloud.</li>
+            <li>Good knowledge of <strong><em>Git Version Control, Bitbucket.</em></strong></li>
+            <li>Implemented <strong><em>Docker and PM2</em></strong> for various project deployment in servers.</li>
+            <li>Worked on different IDE’s like <strong><em>IntelliJ IDEA, Eclipse.</em></strong></li>
+        </ul>
+        <hr size="3" noshade />
+        <h4>PROFESSIONAL EXPERIENCE</h4>
+        <ol>
+            <li>Currently working as a <strong><em>Backend Software Developer</em></strong> in <strong><em><a href="https://snapbizz.com/" target="_blank"> Snapbizz Cloudtech Ltd</a> </em></strong> Bengaluru</li>
+            <li>1.3 years of experience as a <strong><em>Trainee Software Engineer</em></strong> in a company named
+                <strong><em><a href="https://www.obsessory.com/" target="_blank">Obsessory Online Services Private Ltd</a></em></strong> Bengaluru.
+            </li>
+            <li>Successfully completed 06 months of internship as <strong><em>Intern for Java
+              Development Team in RABSONS INFO WORLD </em></strong> Dharwad.</li>
+        </ol>
+        <hr size="3" noshade />
+        <h4>PROJECT PROFILE</h4>
+        <ol>
+            <li><strong>AML-Backend and Data-Extraction</strong></li>
+            <ul>
+                <li><strong>Technologies Included</strong> : Spring-Boot, POSTGRESQL</li>
+                <li><strong>Summary</strong> : It is an application where AML data is extracted from various authorized websites and mapped into the database. Later indexed into elastic search to show into front- end.</li>
+                <li><strong>Roles and Responsibilities</strong> : Involved in planning and creating database and architecture of the project, Developed API’s to Map the Data into DB.</li>
+            </ul>
 
-    <li><strong><a href="https://inspo.shop/" target="_blank">Inspo.shop</a></strong></li>
-    <ul>
-      <li><strong>Technologies Included</strong> : Spring-Boot, MYSQL, DOCKER, NGINX</li>
-      <li><strong>Summary</strong> : Performance-driven micro-influencer campaigns and content
-        monetization tool. InspoShop has features like image tagging and a
-        separate widget application for bloggers running in an iframe on the
-        blogger's website.</li>
-      <li><strong>Roles and Responsibilities</strong> : Developed REST APIs for the web app,
-        public profile, widgets, and infographics. Gone through various REST
-        APIs. Involved in the production release.</li>
-    </ul>
-  </ol>
-  <hr size="3" noshade />
-  <h4>EDUCATIONAL QUALIFICATION</h4>
-  <ul>
-    <li>Bachelor of engineering in Computer Science in 2018 from KLS’s VDIT
-      HALIYAL.</li>
-    <li>PUC from JSS PU College Dharwad.</li>
-    <li>SSLC from SJD High School Nidasoshi</li>
-  </ul>
-  <hr size="3" noshade />
-  <h4>STRENGTHS</h4>
-  <ul>
-    <li>Good managing skills and leadership qualities.</li>
-    <li>Ability to work as an individual as well as in a group.</li>
-    <li>Adaptable and Fast learner.</li>
-    <li>Ability to produce the best result in a pressure situation.</li>
-  </ul>
-  <hr size="3" noshade />
-  <h4>DECLARATION</h4>
-  <p>I, <strong>Anand Namastemath</strong> do hereby declare that the above-mentioned information is
-    correct up to my knowledge and I bear the responsibility for the correctness of the
-    above-mentioned particulars.</p>
+            <li><strong><a href="https://www.kychub.com/" target="_blank">KycHub</a></strong></li>
+            <ul>
+                <li><strong>Technologies Included</strong> : Spring-Boot, MYSQL, DOCKER, Nginx</li>
+                <li><strong>Summary</strong> : An interface that provides KYC services like ID check, Address Check, AML check, Adverse Media Check, Corporate Check.</li>
+                <li><strong>Roles and Responsibilities</strong> : Developed REST APIs, Resolved issues, Involved in cleaning code.</li>
+            </ul>
 
-    <script type='text/javascript'>
-        var cId = '128374';
+            <li><strong><a href="https://inspo.shop/" target="_blank">Inspo.shop</a></strong></li>
+            <ul>
+                <li><strong>Technologies Included</strong> : Spring-Boot, MYSQL, DOCKER, NGINX</li>
+                <li><strong>Summary</strong> : Performance-driven micro-influencer campaigns and content monetization tool. InspoShop has features like image tagging and a separate widget application for bloggers running in an iframe on the blogger's website.</li>
+                <li><strong>Roles and Responsibilities</strong> : Developed REST APIs for the web app, public profile, widgets, and infographics. Gone through various REST APIs. Involved in the production release.</li>
+            </ul>
+        </ol>
+        <hr size="3" noshade />
+        <h4>EDUCATIONAL QUALIFICATION</h4>
+        <ul>
+            <li>Bachelor of engineering in Computer Science in 2018 from KLS’s VDIT HALIYAL.
+            </li>
+            <li>PUC from JSS PU College Dharwad.</li>
+            <li>SSLC from SJD High School Nidasoshi</li>
+        </ul>
+        <hr size="3" noshade />
+        <h4>STRENGTHS</h4>
+        <ul>
+            <li>Good managing skills and leadership qualities.</li>
+            <li>Ability to work as an individual as well as in a group.</li>
+            <li>Adaptable and Fast learner.</li>
+            <li>Ability to produce the best result in a pressure situation.</li>
+        </ul>
+        <hr size="3" noshade />
+        <h4>DECLARATION</h4>
+        I, <strong>Anand Namastemath</strong> do hereby declare that the above-mentioned information is correct up to my knowledge and I bear the responsibility for the correctness of the above-mentioned particulars.
 
-        (function(d, t) {
-          var s = document.createElement('script');
-          s.type = 'text/javascript';
-          s.async = true;
-          s.src = (document.location.protocol == 'https:' ? 'https://cdn0.cuelinks.com/js/' : 'http://cdn0.cuelinks.com/js/')  + 'cuelinksv2.js';
-          document.getElementsByTagName('body')[0].appendChild(s);
-        }());
-  </script>             
+    </div>
+
+
+    <div class="fixed-footer">
+        <div class="container">
+
+            <span class="text-muted">
+                All Rights Reserved 2021 <a href="https://www.facebook.com/anand.namastemath" target="_blank">@asn</a>
+            </span>
+        </div>
+    </div>
+
+
 
 </body>
 
